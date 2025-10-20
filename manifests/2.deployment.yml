@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: mysqldb
+      - name: nginx
         image: divakarchakali1/bb:app
         ports:
         - containerPort: 80
